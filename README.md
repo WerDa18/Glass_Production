@@ -1,2 +1,11 @@
 # Glass_Production
 MVP zur Qualitätsüberwachung einer Float-Glass Produktion
+
+Dies ist ein IoT-Projekt im Rahmen des Moduls Industrielle Produktion & Industrie 4.0, des Masterstudiengangs Industriell Engineering der FH-Aachen. 
+
+Mithilfe des Projektes soll gezeigt werden, wie Microcontroller und somit Sensoren in der Produktion eingesetzt werden und eingesetzt werden können. Sie sind eine Schnittstelle zu einer modernen Produktion im Sinne von Industrie 4.0. Dabei werden Sensordaten mit Microcontrollern aufgenommen, an AWS (Amazon Web Services) übermittelt und anschließend mit einem Python programm wieder ausgelesen. Für unser Projekt haben wir uns folgenden Use-Case überlegt: In der Glassproduktion kommt es immerwieder zu defekten oder zu einschlüssen im produzierten Glass. Beides kann dazu führen, dass Glasscheiben reklamiert, oder Maschinen beschädgit werden. Um dies zu verhindern, haben wir eine Sensorstation entwickelt, die mithilfe von LDR-Sensoren, die die Fehler im Produkt erkennen kann. Durchgeführt haben wir das ganze an einem Modell.
+
+![image](https://user-images.githubusercontent.com/86350904/123081064-d48bbd80-d41d-11eb-9158-e742a7139e92.png)
+
+In dem Modell wurde das Glass mithilfe einer Papierrolle simuliert. Die Ungleichmäßigkeiten in der Papierrolle dienen dabei als Fehler. Ein bruch des Glasses lässt sich durch einen aufgemalten Strich darstellen. Damit nicht nur Sensordaten über die Fehler aufgenommen werden, wurde zusätlich noch ein Ultraschallsensor verbaut, welcher den Materialstand überwacht und eine Gabellichtrschranke eingesetzt um die Materialgeschwindigkeit aufzunehmen. Gleichzeitig ist eine Zustandskontrolle der Maschine über verbaute LEDs in der Controler-Konsole möglich. Ein kontinuirlicher betrieb wird durch zwei verbaute Motoren gewährleistet, welche ebenfalls von einem Microcontroller gesteuert werden. In dem Modell werden zwei Kontroller verwendet. Zum einen ein ESP 8266. Dieser übernimmt die Antriebstechnik des Models. Zum anderen ein ESP32. Dieser zeichnet alle Werte der Sensoren auf und übermittelt sie an AWS. Folgendes Schema stellt die Datenverabeitung dar.
+![image](https://user-images.githubusercontent.com/86350904/123080116-e456d200-d41c-11eb-905a-f34e19855eb6.png)
