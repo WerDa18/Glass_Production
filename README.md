@@ -25,5 +25,10 @@ Die Datenverarbeitung erfolgt über AWS. Dazu sendet der Microcontroller Daten a
 
 ![image](https://user-images.githubusercontent.com/86350904/123080116-e456d200-d41c-11eb-905a-f34e19855eb6.png)
 
+Als Ergenis lässt sich festhalten, dass das Ziel vollständig erfüllt wurde. Es ist aber davon auszugehen, dass in einem Industriellen Kontext die Fehler aufnahme deutlich komplexer zu gestalten ist. Da die LDR-Sensoren in ihrem Messbereich und ihrer Genauigkeit begrenzt sind.
+
+Als letztes ist noch einmal das Fertige Modell dargestellt.
+
+![IMAG6725](https://user-images.githubusercontent.com/86350904/123096349-4b7d8200-d42f-11eb-9cfc-a90703f6da2f.jpg)
 
 Dieses Repository ist als weiterer Anhang der Projektarbeit zu werten. 
