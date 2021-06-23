@@ -27,7 +27,7 @@ Die Datenverarbeitung erfolgt über AWS. Dazu sendet der Microcontroller Daten a
 
 Als Ergenis lässt sich festhalten, dass das Ziel vollständig erfüllt wurde. Es ist aber davon auszugehen, dass in einem Industriellen Kontext die Fehler aufnahme deutlich komplexer zu gestalten ist. Da die LDR-Sensoren in ihrem Messbereich und ihrer Genauigkeit begrenzt sind.
 
-Als letztes ist noch einmal das Fertige Modell dargestellt.
+Als letztes ist noch einmal das fertige Modell dargestellt. Die Abweichungen zwischen dem 3D Modell und dem realen Modell kommen daher, dass im 3D das ursprüngliche Konzept dargestellt wurde und im laufe des Projekt verschiedene Sachen angepasst werden mussten um einen Problemlosen lauf zu generieren. 
 
 ![IMAG6725](https://user-images.githubusercontent.com/86350904/123096349-4b7d8200-d42f-11eb-9cfc-a90703f6da2f.jpg)
 
