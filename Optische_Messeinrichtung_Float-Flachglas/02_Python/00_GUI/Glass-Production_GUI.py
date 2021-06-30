@@ -171,7 +171,7 @@ def set_y_float_ticks(y0, yn, step):
 def download_df_aws():
     client = boto3.client('iotanalytics', region_name='eu-central-1')
 
-    df_aws = client.get_dataset_content(datasetName='qc_glass_production_dataset')
+    df_aws = client.get_dataset_content(datasetName='Dataset_Name')
 
     df = pd.read_csv(df_aws["entries"][0]["dataURI"])
 
