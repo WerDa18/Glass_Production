@@ -11,21 +11,24 @@ Eine entsprechende Überwachungs- und Analyseeinheit ist nun gewünscht, um eine
 Zur Verdeutlichung der Effektivität und des Einsparpotenzials einer optischen Fehlerdetektion-Einheit dient ein Modell. 
 
 Im Modell sind folgende Komponenten verbaut:
+
 Messtechnik
-•	ESP8266 Microcontroller
-•	LDR Fotowiderstandsmodule
-•	LED Stripe (SMD RGB Modul)
-•	5V Power Supply
-•	Ultraschallsensor (HC-SR04)
-•	Gabellichtschrankenmodul
-•	Real Time Clock (DS3231 RTC)
-•	Status LED (LED RGB Modul)
+- ESP8266 Microcontroller
+- LDR Fotowiderstandsmodule
+- LED Stripe (SMD RGB Modul)
+- 5V Power Supply
+- Ultraschallsensor (HC-SR04)
+- Gabellichtschrankenmodul
+- Real Time Clock (DS3231 RTC)
+- Satus LED (LED RGB Modul)
+
 Antriebstechnik
-•	ESP32 Microcontroller
-•	12V DC Getriebemotoren
+- ESP32 Microcontroller
+- 12V DC Getriebemotoren
+
 Sonstiges
-•	Kassenbon Rolle
-•	Verschiedene Modellelemente
+- Kassenbon Rolle
+- Verschiedene Modellelemente
 
 Als fließendes Produkt dient im Modell die Kassenbon Rolle, welche materialbedingt unregelmäßig verteilte Faseranhäufungen aufweist. Die sich aufgrund der Anhäufungen ändernde Helligkeit des durchscheinenden LED-Lichts wird von den LDR-Sensoren erfasst. Je nach Helligkeitsabweichung, aufgrund der „Faser-Spot-Dichte“, können entsprechende Rückschlüsse auf die Fehlerklassen getroffen werden. 
 Im Modell werden zur Produktionsüberwachung zwei weitere Sensoren verbaut, eine Gabellichtschranke zur Drehzahlmessung und ein Distanzsensor zur Material-Bestandsmessung. Mithilfe dieser Sensordaten kann die Bahngeschwindigkeit bestimmt und somit die Position erkannter Fehler im Produkt beurteilt werden.
