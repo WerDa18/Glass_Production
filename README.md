@@ -1,4 +1,5 @@
-Kostenoptimierung einer Flachglas Produktion
+# Kostenoptimierung einer Flachglas Produktion
+
 MVP zur Qualitätsoptimierung einer Flachglas Produktion im Float-Verfahren.
 Bei der vorliegenden Arbeit handelt es sich um ein IoT-Projekt im Rahmen des Moduls „Industrielle Produktion & Industrie 4.0“ der FH-Aachen.
 Die Resultate dieser Arbeit verdeutlichen den Einfluss einer Kombination von Microcontrollern und Sensoren im industriellen Produktionskontext. Sensoren stellen hierbei die Schnittstellen zur modernen Produktion im Sinne von Industrie 4.0 dar. Vom Microcontroller gesteuert, nehmen die Sensoren entsprechende Daten auf. Diese werden anschließend an AWS (Amazon Web Services) übermittelt und mit Hilfe eines (auf der Programmiersprache Python basierenden) Programms ausgelesen. 
