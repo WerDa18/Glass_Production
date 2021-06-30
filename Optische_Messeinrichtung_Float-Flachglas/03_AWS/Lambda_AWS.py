@@ -57,7 +57,7 @@ def SNS_massage():
 
     # Publizierten der Nachricht
     response = sns.publish(
-        TopicArn='arn:aws:sns:eu-central-1:902625817927:Glass_Production',  # event['notify_topic_arn'],
+        TopicArn='personal arn:...',  # event['notify_topic_arn'],
         Message=message_text
     )
 
