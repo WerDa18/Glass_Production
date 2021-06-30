@@ -10,7 +10,8 @@ def disconnect_wifi():
 def connect_wifi():
     wifi_passwds = {}
 
-    with open("cert_jens\wifi_passwds.txt") as f:
+    # wifi_passwds.txt insert "WIFI-Name":"Password"
+    with open("cert\wifi_passwds.txt") as f:
         for line in f.readlines():
             wifi_id, passwd = line.strip().split(":")
             wifi_passwds[wifi_id] = passwd
