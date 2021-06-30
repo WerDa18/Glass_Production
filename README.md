@@ -35,16 +35,16 @@ Im Modell werden zur Produktionsüberwachung zwei weitere Sensoren verbaut, eine
 Eine Controller-Konsole ermöglicht die Betriebssteuerung und Zustandsüberwachung des Modells. Hierbei werden Mess- und Antriebstechnik jeweils separat mittels Taster eingeschaltet. Ein Notaus kann ebenfalls separat initiiert werden.
 Die gewonnen Erkenntnisse werden abschließend auf den fiktiven Fall übertragen.
 
-![image](https://user-images.githubusercontent.com/86350904/123914111-554b3c00-d97f-11eb-80a0-b84c2b85a414.png)
+![Zusammenbau_zugeschnitten](https://user-images.githubusercontent.com/86350904/123928680-6b142d80-d98e-11eb-8d55-8b5d7f74194c.png)
 
 Im Pinout sind alle Komponenten der Technik des Modells dargestellt:
 
-![image](https://user-images.githubusercontent.com/86350904/123914145-5f6d3a80-d97f-11eb-9426-cb3f3fb3680d.png)
+ ![Glassproduction_Pinout](https://user-images.githubusercontent.com/86350904/123930148-c09d0a00-d98f-11eb-9cc5-0ee46ff2e361.png)
 
 Im Zuge der Datenverarbeitung werden die Dienste IoT Core, IoT Analytics sowie Lambda der Amazon Web Services genutzt. 
 Der Microcontroller sendet die Daten an IoT Core. Von dort verarbeitet ein Lambda Programm die Daten weiter und wertet diese aus. Sollte ein Glasbruch festgestellt werden, wird eine Benachrichtigung per Mail an den Anwender versendet. IoT Core sendet die aufgenommenen Datenpakete an IoT Analytics. Diese Datenpakete werden abschließend von einem lokalen Python Programm heruntergeladen, ausgewertet und in einem Graphical User Interface visualisiert. Folgende Darstellung veranschaulicht noch einmal diese Datenstruktur.
 
-![image](https://user-images.githubusercontent.com/86350904/123914187-6b58fc80-d97f-11eb-90fd-60b09fd091f6.png)
+![image](https://user-images.githubusercontent.com/86350904/123930547-28535500-d990-11eb-90cb-a219bb633708.png)
 
 Als Resultat der modellhaften Produktion lässt sich festhalten, dass die optische Detektion von (im Glas enthaltenen) Fehlern einen Mehrwert im Sinne der Beurteilung der Produktqualität liefert. In Abhängigkeit von verschiedenen Faktoren, u.a. Produktionsgeschwindigkeit, verwendete Sensoren und Leuchtmittel, können Fehler im Produkt erkannt und als Ausschuss bewertet werden, bevor es zum Kunden gelangt.
 Übertragen auf den fiktiven Fall der einjährigen Produktion werden die gewonnen Daten an nachfolgende Arbeitssysteme weitergegeben und verarbeitet. Zu diesen Arbeitssystemen zählen u.a. die Längs-/Querschneider, der Schnittoptimierung und die Fehler-Markieranlage, sodass der anfallende Ausschuss entzogen und im Nachgang als Rohmaterial dem Produktionsprozess wieder zugeführt werden kann.
@@ -52,6 +52,6 @@ Als Resultat der modellhaften Produktion lässt sich festhalten, dass die optisc
 Grundsätzlich ist bei diesem Use-Case allerdings davon auszugehen, dass im realen industriellen Kontext hochauflösende Moiré-Kamera-Systeme im Bereich der Online-Fehlerdetektion zur Anwendung kommen. Aufgrund der enorm hohen Anschaffungskosten solcher Systeme steht in diesem Fall die verwendete LDR-Technik stellvertretend für die Erkennung von Fehlern mittels optischer Detektionssysteme.
 Abschließend ist das fertige Modell dargestellt. Abweichungen zum oben aufgeführten 3D CAD Modell bestehen dadurch, dass Letzteres aus der Konzept Phase stammt. Es verdeutlicht lediglich das grundlegende Prinzip. Auf eine Anpassung geringfügiger Änderungen des realen Modells wurde daher verzichtet.
 
-![image](https://user-images.githubusercontent.com/86350904/123914216-7449ce00-d97f-11eb-9269-8faba64fae41.png)
+![Modell](https://user-images.githubusercontent.com/86350904/123930615-3608da80-d990-11eb-82ba-1311dba72ba9.png)
 
 Dieses Repository ist als weiterer Anhang der Projektarbeit zu werten.
