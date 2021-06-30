@@ -108,11 +108,11 @@ def measurement_program():
     MQTT_PORT = 8883
 
     # MQTT settings to David:
-    CERT_FILE = "cert_david\cert.der"
-    KEY_FILE = "cert_david\private.der"
-    MQTT_CLIENT_ID = "QC_Paper_production"
-    MQTT_TOPIC = "Sensor_data"
-    MQTT_HOST = "a1ntys57a08hj9-ats.iot.eu-central-1.amazonaws.com"
+    CERT_FILE = "cert.der"
+    KEY_FILE = "cert_private.der"
+    MQTT_CLIENT_ID = "Name AWS Thing"
+    MQTT_TOPIC = "personal-Topic"
+    MQTT_HOST = "personal-arn"
 
     # MQTT settings to Jens:
     # CERT_FILE = "cert_jens\cert.der"
